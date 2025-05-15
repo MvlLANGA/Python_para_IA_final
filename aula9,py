@@ -1,0 +1,9 @@
+#Concatenação
+palavra1 = "ex"
+palavra2 = "emplo"
+
+palavraCompleta = palavra1 + palavra2
+
+print(palavraCompleta)
+
+print("-"* len(palavraCompleta))
