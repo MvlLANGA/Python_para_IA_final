@@ -6,7 +6,7 @@ def maior_numero(num1,num2,num3):
     else:
         print(num3)
 
-maior_numero(5,4,20)
+maior_numero(20, 50, 60)
 
 # Ou Pode_se fazer desse jeito
 
