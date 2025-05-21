@@ -1,8 +1,11 @@
 def mesmo_caracter(str, num1, num2):
-
-    if str[num1] == str[num2]:
-        return True
-    else:
-        return False
+    if num1 < 0 or num2 < 0 or num1 >= len(str) or num2 >= len(str): # aqui voce compara os argumentoS
+        return False # Retorna ele como falso
     
-print(mesmo_caracter("arara", 1, 3))
+    else:
+        if str[num1] != str[num2]:
+            return False
+        else:
+            return True
+    
+print(mesmo_caracter("arara", 0, 4))
